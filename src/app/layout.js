@@ -1,9 +1,9 @@
-import { Lexend } from "next/font/google";
+import { Space_Mono } from "next/font/google";
 import "./globals.css";
 
-const lexend = Lexend({
+const space_Mono = Space_Mono({
   subsets: ["latin"],
-  weight: ['300', '700'],
+  weight: ['400', '700'],
   style: ['normal'],
   subsets: ['latin'],
   display: 'swap',
@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={lexend.className}>{children}</body>
+      <body className={space_Mono.className}>{children}</body>
     </html>
   );
 }
