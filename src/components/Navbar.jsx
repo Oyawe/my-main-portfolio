@@ -1,5 +1,5 @@
 "use client";
-import { navData } from "@/data/NavData";
+import { navData } from "@/app/data/NavData";
 import { Menu, MoonStar, X } from "lucide-react";
 import React, { useState } from "react";
 
