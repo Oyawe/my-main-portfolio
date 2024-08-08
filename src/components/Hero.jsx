@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex items-center justify-between h-screen max-w-6xl px-8 mx-auto containr md:px-10 lg:px-24 bg-zinc-900">
+    <div className="container flex items-center justify-between h-screen max-w-6xl px-8 mx-auto md:px-10 lg:px-24 bg-zinc-900">
       <div className="flex flex-col justify-center h-full mx-auto mt-12 md:mt-0 md:mx-auto lg:-mx-20">
         <p
           data-aos-once="true"
