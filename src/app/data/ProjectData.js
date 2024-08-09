@@ -2,22 +2,23 @@ import { Github, Globe } from "lucide-react";
 
 export const ProjectData = [
   {
-    title: 'Odyssey Admin Dashboard UI',
+    title: 'Admin Dashboard UI',
     technologies: [
       "React.js",
       "TailwindCSS",
       "Recharts",
-      "Material UI Icons",
+      "MaterialUI",
       "Firebase",
     ],
     description:
-      'With the demand for an interface that enhances efficient data management with dynamic visualizations and user management for efficient administration, I decided to build a responsive admin dashboard with React featuring secured login.',
-    image:
-      'https://i.postimg.cc/HspQG4cG/Main-stuff.jpg',
+      'With the demand for an interface that enhances efficient data management and dynamic visualizations, I decided to build a responsive admin dashboard with React featuring secured login.',
+    image: "https://i.postimg.cc/ZK1qpPtW/admin.jpg",
+    imageL: "https://i.postimg.cc/hvpyKmZ1/Screen-Shot-Tool-20240808141315.png",
     link: 'https://odyssey-admin-teal.vercel.app/',
-    linkIcon: <Globe className="text-xl" />,
-    githubIcon: <Github className="text-xl" />,
+    linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
+    githubIcon: <Github className="p-1 bg-transparent text-slate-900 text-md" />,
     github: 'https://github.com/Oyawe/odysseyAdmin',
+
   },
   {
     title: 'Premium Thrift Shop',
@@ -27,12 +28,11 @@ export const ProjectData = [
       "Fake Store API",
     ],
     description:
-      'Built a responsive eCommerce web app. Features include product listings, detailed product pages, shopping cart functionality, and user authentication, providing a seamless and visually appealing shopping experience.',
-    image:
-      'https://i.postimg.cc/xjB5vXtJ/Screenshot-2024-08-06-at-7-54-27-AM.png',
+      'This is an eCommerce shopping app. Features ip-1 nclude product listings, detailed product pages and a shopping cart providing a visually appealing shopping experience.',
+    image: 'https://i.postimg.cc/cJ77V4Mc/Screenshot-2024-08-08-at-5-09-18-PM.png',
     link: 'https://e-commerce-web-app-flame.vercel.app/',
-    linkIcon: <Globe className="text-xl" />,
-    githubIcon: <Github className="text-xl" />,
+    linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
+    githubIcon: <Github className="p-1 bg-transparent text-slate-900 text-md" />,
     github: 'https://github.com/Oyawe/E-commerce-web-app',
   },
   {
@@ -43,12 +43,11 @@ export const ProjectData = [
       "Framer Motion",
     ],
     description:
-      'A virtual reality landing page built with React, TailwindCSS, and Framer Motion, showcasing immersive animations and a modern UI',
-    image:
-      'https://i.postimg.cc/zXWj0qcd/Screenshot-2024-08-06-at-7-53-14-AM.png',
+      'A virtual reality landing page built with React and Framer Motion showcasing immersive animations and a modern UI',
+    image: 'https://i.postimg.cc/L4WmpQw7/Screen-Shot-Tool-20240808144054.png',
     link: 'https://virtual-e-gules.vercel.app/',
-    linkIcon: <Globe className="text-xl" />,
-    githubIcon: <Github className="text-xl" />,
+    linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
+    githubIcon: <Github className="p-1 bg-transparent text-slate-900 text-md" />,
     github: 'https://github.com/Oyawe/virtualE',
   },
   {
@@ -60,11 +59,11 @@ export const ProjectData = [
     ],
     description:
       'Another movie app clone but this time with seamless routing powered by the latest version of Next.js.',
-    image:
-      'https://i.postimg.cc/K8ftHjr5/Screenshot-2024-08-06-at-7-52-03-AM.png',
+    image: 'https://i.postimg.cc/0Qxb7XPZ/Screen-Shot-Tool-20240808143845.png',
+    imageL: 'https://i.postimg.cc/wx4jBjyw/Screen-Shot-Tool-20240808144029.png',
     link: 'https://movie-app-eosin-seven.vercel.app/',
-    linkIcon: <Globe className="text-xl" />,
-    githubIcon: <Github className="text-xl" />,
+    linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
+    githubIcon: <Github className="p-1 bg-transparent text-slate-900 text-md" />,
     github: 'https://github.com/Oyawe/movie-app',
   },
 ];
