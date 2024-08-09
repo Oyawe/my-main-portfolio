@@ -15,7 +15,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="px-4 mx-auto my-24 md:h-screen max-w-7xl md:px-10 lg:px-20 text-slate-200"
+      className="px-4 mx-auto my-24 md:h-screen max-w-7xl md:px-10 lg:px-20 text-slate-200 bg-zinc-900"
     >
       <div className="flex flex-col w-full lg:mx-14 md:mx-0 ">
         <div
@@ -35,9 +35,9 @@ const Work = () => {
               data-aos-delay={project.delay}
               data-aos-once="true"
               key={index}
-              className="overflow-hidden border shadow-lg border-zinc-200 shadow-gray-200 bg-zinc-800"
+              className="overflow-hidden border shadow-lg border-zinc-200 shadow-gray-200 bg-zinc-900"
             >
-              <a href={project.link}>
+              <a href={project.link} target="_blank">
                 <LazyLoadImage
                   orientation="top"
                   src={project.image}
@@ -45,7 +45,7 @@ const Work = () => {
                   className="object-cover transition duration-500 transform hover:scale-105 hover:opacity-60"
                 />
               </a>
-              <CCardBody className="text-white">
+              <CCardBody className="text-white bg-zinc-900">
                 <CCardTitle className="mb-3 font-bold">
                   {project.title}
                 </CCardTitle>
