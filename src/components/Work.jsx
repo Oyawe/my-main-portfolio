@@ -30,12 +30,12 @@ const Work = () => {
         <div className="grid justify-center grid-cols-1 gap-5 my-20 mt-10 md:px-0 lg:px-4 lg:mr-24 sm:grid-cols-2">
           {ProjectData.map((project, index) => (
             <CCard
-              data-aos="fade-up"
+              data-aos="flip-left"
               data-aos-duration="500"
-              data-aos-delay="250"
+              data-aos-delay={project.delay}
               data-aos-once="true"
               key={index}
-              className="overflow-hidden border rounded-lg shadow-lg border-zinc-200 shadow-gray-200 bg-zinc-800"
+              className="overflow-hidden border shadow-lg border-zinc-200 shadow-gray-200 bg-zinc-800"
             >
               <a href={project.link}>
                 <LazyLoadImage

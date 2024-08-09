@@ -18,6 +18,7 @@ export const ProjectData = [
     linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
     githubIcon: <Github className="p-1 bg-transparent text-slate-900 text-md" />,
     github: 'https://github.com/Oyawe/odysseyAdmin',
+    delay: 200,
 
   },
   {
@@ -34,6 +35,7 @@ export const ProjectData = [
     linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
     githubIcon: <Github className="p-1 bg-transparent text-slate-900 text-md" />,
     github: 'https://github.com/Oyawe/E-commerce-web-app',
+    delay: 250,
   },
   {
     title: 'VirtualE Landing Page',
@@ -49,6 +51,7 @@ export const ProjectData = [
     linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
     githubIcon: <Github className="p-1 bg-transparent text-slate-900 text-md" />,
     github: 'https://github.com/Oyawe/virtualE',
+    delay: 300,
   },
   {
     title: 'IMDb Clone',
@@ -65,5 +68,6 @@ export const ProjectData = [
     linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
     githubIcon: <Github className="p-1 bg-transparent text-slate-900 text-md" />,
     github: 'https://github.com/Oyawe/movie-app',
+    delay: 350,
   },
 ];

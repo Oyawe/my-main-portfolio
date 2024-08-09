@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -49,15 +50,17 @@ const Hero = () => {
           web applications with great user experiences.
         </p>
         <div className="flex justify-start w-full gap-4">
-          <button
-            className="flex items-center px-6 py-3 mt-0 space-x-3 font-semibold bg-orange-600 rounded-md md:mt-6 hover:bg-orange-700 text-slate-200"
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="200"
-            data-aos-once="true"
-          >
-            My Work
-          </button>
+          <Link to="work" smooth={false} offset={-120} duration={700}>
+            <button
+              className="flex items-center px-6 py-3 mt-0 space-x-3 font-semibold bg-orange-600 rounded-md md:mt-6 hover:bg-orange-700 text-slate-200"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="200"
+              data-aos-once="true"
+            >
+              My Work
+            </button>
+          </Link>
           <a
             href="https://drive.google.com/file/d/1gDYoNKtjGRdwjxOIVmKjrlaOpkS5JjTb/view?usp=sharing"
             target="_blank"
