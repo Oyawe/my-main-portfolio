@@ -5,6 +5,7 @@ import Hero from '@/components/Hero'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import Work from '@/components/Work'
+import About from '@/components/About'
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Work />
+      <About />
     </div>
   )
 }

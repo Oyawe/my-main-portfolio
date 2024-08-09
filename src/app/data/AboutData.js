@@ -1,10 +1,51 @@
 export const AboutData = [
   {
     paragraph:
-      "Hello! My name is Ireoluwa and I am a 19-year-old Nigerian frontend software developer who specializes in building robust and scalable UIs that power exceptional user experiences. I've worked on 30+ personal and team projects, which has helped me acquire excellent development and social skills. I'm currently using React and NextJS to design User Friendly UIs every day.",
+      "I'm a 19-year-old Nigerian frontend software developer who specializes in building scalable UIs that power exceptional user experiences with a strong focus on responsive design and accessibility.",
   },
   {
     paragraph:
-      'I am a creative frontend developer who is proficient in React and Tailwind CSS and specializes in creating modern, engaging design. I build a foundation utilizing simple ingredients that incorporate all the senses resulting in a hand-crafted experience, making a lasting impression.',
+      "I've worked on 30+ personal and team projects, which has helped me acquire excellent development and social skills. I'm currently using React and NextJS to develop User Friendly UIs every day.",
   },
+
 ];
+
+export const AboutIcons = [
+  {
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png",
+    text: "HTML",
+  },
+  {
+    image: "https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png",
+    text: "CSS",
+  },
+  {
+    image: "https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png",
+    text: "JavaScript",
+  },
+  {
+    image: "https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png",
+    text: "ReactJs",
+  },
+  {
+    image: "nextjs.png",
+    text: "NextJs",
+  },
+  {
+    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xjlIi1Va0zO2fZb8p2S22w.png",
+    className: "true",
+    text: "TypeScript",
+  },
+  {
+    image: "tailwind.svg",
+    text: "TailwindCss",
+  },
+  {
+    image: "https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/redux.png",
+    text: "Redux",
+  },
+  {
+    image: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png",
+    text: "Firebase",
+  }
+]

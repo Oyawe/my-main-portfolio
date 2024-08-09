@@ -15,7 +15,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="h-screen px-4 mx-auto my-24 max-w-7xl md:px-10 lg:px-20 text-slate-200"
+      className="px-4 mx-auto my-24 md:h-screen max-w-7xl md:px-10 lg:px-20 text-slate-200"
     >
       <div className="flex flex-col w-full lg:mx-14 md:mx-0 ">
         <div
@@ -46,7 +46,9 @@ const Work = () => {
                 />
               </a>
               <CCardBody className="text-white">
-                <CCardTitle className="mb-3">{project.title}</CCardTitle>
+                <CCardTitle className="mb-3 font-bold">
+                  {project.title}
+                </CCardTitle>
                 <CCardText className="text-sm">{project.description}</CCardText>
                 {project.technologies && project.technologies.length > 0 && (
                   <div className="flex flex-wrap gap-1 mb-3">

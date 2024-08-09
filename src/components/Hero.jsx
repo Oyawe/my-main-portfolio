@@ -41,9 +41,12 @@ const Hero = () => {
           data-aos-once="true"
           className="text-orange-600 py-6 max-w-[600px] text-sm md:text-[15px]"
         >
-          I'm a Frontend Software Engineer with a strong passion for crafting
-          clean code and building efficient web applications with great user
-          experiences.
+          I'm a{" "}
+          <span className="font-bold text-orange-600 text-md md:text-lg">
+            Frontend Software Engineer
+          </span>{" "}
+          with a strong passion for crafting clean code and building efficient
+          web applications with great user experiences.
         </p>
         <div className="flex justify-start w-full gap-4">
           <button
