@@ -2,6 +2,7 @@
 import { navData } from "@/app/data/NavData";
 import { Menu, MoonStar, X } from "lucide-react";
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -21,7 +22,9 @@ const Navbar = () => {
               key={index}
               className="cursor-pointer hover:decoration-orange-600 hover:underline hover:underline-offset-4 decoration-[3px]"
             >
-              {item.title}
+              <Link to={item.name} smooth={false} offset={-125} duration={400}>
+                {item.title}
+              </Link>
             </li>
           ))}
           <li>
@@ -55,7 +58,15 @@ const Navbar = () => {
                   key={index}
                   className="py-7 text-5xl cursor-pointer hover:decoration-orange-600 hover:underline hover:underline-offset-4 decoration-[3px]"
                 >
-                  {item.title}
+                  <Link
+                    to={item.name}
+                    onClick={() => setOpen(false)}
+                    smooth={false}
+                    offset={-100}
+                    duration={500}
+                  >
+                    {item.title}
+                  </Link>
                 </li>
               ))}
             </ul>
