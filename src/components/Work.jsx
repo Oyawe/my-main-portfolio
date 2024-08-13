@@ -14,7 +14,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const Work = () => {
   return (
     <div
-      name="work"
+      name="projects"
       className="px-4 mx-auto my-24 md:h-screen max-w-7xl md:px-10 lg:px-20 text-slate-200 bg-zinc-900"
     >
       <div className="flex flex-col w-full lg:mx-14 md:mx-0 ">
@@ -25,7 +25,7 @@ const Work = () => {
           data-aos-delay="150"
           data-aos-once="true"
         >
-          My Works
+          Projects
         </div>
         <div className="grid justify-center grid-cols-1 gap-5 my-20 mt-10 md:px-0 lg:px-4 lg:mr-24 sm:grid-cols-2">
           {ProjectData.map((project, index) => (

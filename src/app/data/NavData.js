@@ -1,5 +1,5 @@
 export const navData = [
   { title: 'Home', name: 'home' },
-  { title: 'Work', name: 'work' },
+  { title: 'Projects', name: 'projects' },
   { title: 'About', name: 'about' },
 ];

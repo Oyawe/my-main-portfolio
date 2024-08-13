@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div
       name="home"
-      className="flex items-center justify-between h-screen px-4 mx-auto mt-4 max-w-7xl md:mt-0 md:px-10 lg:px-20 bg-zinc-900"
+      className="flex items-center justify-between h-screen px-4 mx-auto -mt-4 max-w-7xl md:mt-0 md:px-10 lg:px-20 bg-zinc-900"
     >
       <div className="flex flex-col justify-center h-full lg:mx-16">
         <p
@@ -33,7 +33,7 @@ const Hero = () => {
           data-aos-once="true"
           className="max-w-[1000px] text-4xl md:text-5xl lg:text-6xl font-bold text-slate-300"
         >
-          I build beautiful web experiences.
+          I build beautiful web interfaces.
         </h2>
         <p
           data-aos="fade-up"
