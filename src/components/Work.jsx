@@ -30,7 +30,7 @@ const Work = () => {
         <div className="grid justify-center grid-cols-1 gap-5 my-20 mt-10 md:px-0 lg:px-4 lg:mr-24 sm:grid-cols-2">
           {ProjectData.map((project, index) => (
             <CCard
-              data-aos="flip-left"
+              data-aos="fade-up"
               data-aos-duration="500"
               data-aos-delay={project.delay}
               data-aos-once="true"
