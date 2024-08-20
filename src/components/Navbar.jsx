@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between max-w-6xl mx-auto md:px-3 ">
         <Link to="home" smooth={false} offset={-100} duration={700}>
           <div className="relative z-50 ml-5 text-2xl text-orange-600 cursor-pointer md:ml-3">
-            Ireoluwa
+            Goodness
           </div>
         </Link>
         <ul className="items-center hidden space-x-6 divide-orange-600 md:flex">

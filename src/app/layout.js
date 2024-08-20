@@ -10,8 +10,8 @@ const space_Mono = Space_Mono({
 });
 
 export const metadata = {
-  title: "Ireoluwa Portfolio",
-  description: "Ireoluwa E-portfolio",
+  title: "Goodness Portfolio",
+  description: "Goodness E-portfolio",
 };
 
 export default function RootLayout({ children }) {

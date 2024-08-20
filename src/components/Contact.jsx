@@ -59,7 +59,7 @@ const Contact = () => {
         data-aos-delay="300"
         data-aos-once="true"
       >
-        Copyright Ⓒ 2023 Ireoluwa
+        Copyright Ⓒ 2023 Goodness
       </div>
     </div>
   );

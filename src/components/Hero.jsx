@@ -9,22 +9,22 @@ const Hero = () => {
       className="flex items-center justify-between h-screen px-4 mx-auto -mt-4 max-w-7xl md:mt-0 md:px-10 lg:px-20 bg-zinc-900"
     >
       <div className="flex flex-col justify-center h-full lg:mx-16">
-        <p
+        <h3
           data-aos-once="true"
           data-aos="fade-up"
           data-aos-duration="400"
           className="text-lg text-orange-600 md:text-md"
         >
           Hi, my name is,
-        </p>
+        </h3>
         <h1
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-delay="50"
           data-aos-once="true"
-          className="py-1 text-5xl font-bold py md:text-6xl lg:text-7xl text-slate-200"
+          className="py-2 text-5xl font-bold py md:text-6xl lg:text-7xl text-slate-200"
         >
-          Ireoluwa.
+          Goodness.
         </h1>
         <h2
           data-aos="fade-up"
