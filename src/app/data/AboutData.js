@@ -32,7 +32,7 @@ export const AboutIcons = [
     text: "NextJs",
   },
   {
-    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xjlIi1Va0zO2fZb8p2S22w.png",
+    image: "typescript.png",
     className: "true",
     text: "TypeScript",
   },
