@@ -50,7 +50,7 @@ const Hero = () => {
           web applications with great user experiences.
         </p>
         <div className="flex justify-start w-full gap-4">
-          <Link to="work" smooth={false} offset={-120} duration={700}>
+          <Link to="projects" smooth={false} offset={-120} duration={700}>
             <button
               className="flex items-center px-6 py-3 mt-0 space-x-3 font-semibold bg-orange-600 rounded-md md:mt-6 hover:bg-orange-700 text-slate-200"
               data-aos="fade-up"
@@ -58,7 +58,7 @@ const Hero = () => {
               data-aos-delay="200"
               data-aos-once="true"
             >
-              My Work
+              My Projects
             </button>
           </Link>
           <a
