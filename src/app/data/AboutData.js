@@ -1,7 +1,7 @@
 export const AboutData = [
   {
     paragraph:
-      "I'm a 19-year-old frontend software developer from Lagos, Nigeria who specializes in building scalable UIs that power exceptional user experiences with a strong focus on responsive design and accessibility.",
+      "I'm a 20-year-old frontend software developer from Lagos, Nigeria who specializes in building scalable UIs that power exceptional user experiences with a strong focus on responsive design and accessibility.",
   },
   {
     paragraph:
