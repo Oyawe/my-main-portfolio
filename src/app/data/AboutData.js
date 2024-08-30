@@ -5,7 +5,7 @@ export const AboutData = [
   },
   {
     paragraph:
-      "I've worked on 30+ personal and team projects, which has helped me acquire excellent development and social skills. I'm currently using React and NextJS to develop innovative & scalable applications every day.",
+      "I've worked on 30+ personal and team projects, which has helped me acquire excellent development and social skills. I currently use NextJS, TailwindCss and Typescript to develop innovative & scalable applications every day.",
   },
 
 ];
