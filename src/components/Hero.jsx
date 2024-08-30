@@ -33,7 +33,7 @@ const Hero = () => {
           data-aos-once="true"
           className="max-w-[1000px] text-4xl md:text-5xl lg:text-6xl font-bold text-slate-300"
         >
-          I build beautiful web interfaces.
+          I build exceptional software interfaces.
         </h2>
         <p
           data-aos="fade-up"
