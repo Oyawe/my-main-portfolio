@@ -44,10 +44,10 @@ const Hero = () => {
         >
           I'm a{" "}
           <span className="font-bold text-orange-600 text-md md:text-lg">
-            Frontend Software Engineer
+            Software Developer
           </span>{" "}
-          with a strong passion for crafting clean code and building efficient
-          web applications with great user experiences.
+          with a strong passion for crafting clean code and building efficient,
+          innovative and scalable Softwares with great user experiences.
         </p>
         <div className="flex justify-start w-full gap-4">
           <Link to="projects" smooth={false} offset={-120} duration={700}>
@@ -62,7 +62,7 @@ const Hero = () => {
             </button>
           </Link>
           <a
-            href="https://drive.google.com/file/d/11tQbDyViS31azipfEpsrYmI1j1VN_F6u/view?usp=sharing"
+            href="https://drive.google.com/file/d/1rg4ldG3alpAA_ZgELKzGC9562jYNY0X9/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"

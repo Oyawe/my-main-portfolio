@@ -1,11 +1,11 @@
 export const AboutData = [
   {
     paragraph:
-      "I'm a 20-year-old frontend software developer from Lagos, Nigeria who specializes in building scalable UIs that power exceptional user experiences with a strong focus on responsive design and accessibility.",
+      "I'm an innovative Software developer from Lagos, Nigeria who specializes in building scalable Softwares that solves problems and powers exceptional user experiences alongside responsiveness and accessibility.",
   },
   {
     paragraph:
-      "I've worked on 30+ personal and team projects, which has helped me acquire excellent development and social skills. I'm currently using React and NextJS to develop User Friendly UIs every day.",
+      "I've worked on 30+ personal and team projects, which has helped me acquire excellent development and social skills. I'm currently using React and NextJS to develop innovative & scalable applications every day.",
   },
 
 ];
