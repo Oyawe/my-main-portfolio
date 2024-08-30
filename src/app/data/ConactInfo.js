@@ -11,7 +11,7 @@ export const ContactInfo = [
   },
   {
     form: 'Resume',
-    link: 'https://drive.google.com/file/d/1rg4ldG3alpAA_ZgELKzGC9562jYNY0X9/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1RjIdYvwwKJU2fMPnm2vhmf-6Gle_JVb4/view?usp=sharing',
     line: 'View my resume!'
   },
   {

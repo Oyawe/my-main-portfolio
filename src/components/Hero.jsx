@@ -62,7 +62,7 @@ const Hero = () => {
             </button>
           </Link>
           <a
-            href="https://drive.google.com/file/d/1rg4ldG3alpAA_ZgELKzGC9562jYNY0X9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1RjIdYvwwKJU2fMPnm2vhmf-6Gle_JVb4/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
