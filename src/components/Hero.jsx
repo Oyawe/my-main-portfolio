@@ -46,8 +46,8 @@ const Hero = () => {
           <span className="font-bold text-orange-600 text-md md:text-lg">
             Software Developer
           </span>{" "}
-          with a strong passion for crafting clean code and building efficient,
-          innovative and scalable Softwares with great user experiences.
+          with a strong passion for crafting clean code and building innovative
+          and scalable Softwares with great user experiences.
         </p>
         <div className="flex justify-start w-full gap-4">
           <Link to="projects" smooth={false} offset={-120} duration={700}>
