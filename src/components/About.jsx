@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="flex flex-col items-center justify-center gap-4 px-4 mx-auto my-0 lg:h-screen md:h-[70vh] max-w-7xl md:px-10 lg:px-20 text-slate-200 md:flex-row"
+      className="flex flex-col items-center justify-center gap-4 px-4 mx-auto my-0 md:h-[700px] max-w-7xl lg:mt-0 text-slate-200 md:flex-row"
     >
       <div
         data-aos="fade-up"

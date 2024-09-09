@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="flex flex-col items-center justify-center gap-4 px-4 mx-auto my-10 lg:mt-0 mt-40 md:h-[400px] max-w-7xl md:px-10 lg:px-20 text-slate-200 md:mb-20 mb-10"
+      className="flex flex-col items-center justify-center gap-4 px-4 mx-auto mt-20 md:h-[700px] max-w-7xl md:mb-0 md:px-10 text-slate-200 mb-10"
     >
       <div className="w-full">
         <h1
@@ -53,13 +53,13 @@ const Contact = () => {
         ))}
       </div>
       <div
-        className="mt-1 text-center"
+        className="mt-1 text-center "
         data-aos="fade-up"
         data-aos-duration="500"
         data-aos-delay="300"
         data-aos-once="true"
       >
-        Copyright Ⓒ 2023 Goodness
+        Copyright Ⓒ 2024 Goodness
       </div>
     </div>
   );
