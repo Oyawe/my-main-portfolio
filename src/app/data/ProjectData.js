@@ -27,7 +27,7 @@ export const ProjectData = [
       "Redux",
     ],
     description:
-      'Manage your daily tasks and boost your productivity by 10x with this task manager app',
+      'Manage your daily tasks and boost your productivity by 10x with this task manager app.',
     image: "https://i.postimg.cc/hPwCWpmZ/Screenshot-2024-09-09-at-3-00-46-PM.png",
     link: 'https://taskappp.vercel.app/',
     linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
