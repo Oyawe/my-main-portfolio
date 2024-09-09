@@ -2,6 +2,24 @@ import { Github, Globe } from "lucide-react";
 
 export const ProjectData = [
   {
+    title: 'Interlock UI',
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Framer Motion",
+    ],
+    description:
+      'This is a website for a Fintech Startup to showcase their innovative solutions tailored to meet the evolving needs of their clients.',
+    image: "https://i.postimg.cc/PqjH38wF/Screenshot-2024-09-09-at-12-28-55-PM.png",
+    link: 'https://interlockui.vercel.app/',
+    linkIcon: <Globe className="p-1 bg-transparent text-slate-900 text-md" />,
+    githubIcon: <Github className="p-1 bg-transparent text-slate-900 text-md" />,
+    github: 'https://github.com/Oyawe/interlock',
+    delay: 200,
+
+  },
+  {
     title: 'Admin Dashboard UI',
     technologies: [
       "React.js",
